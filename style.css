@@ -1,0 +1,206 @@
+.heading {
+  font-family: "Delius Unicase", cursive;
+}
+.nav-bar {
+  background-color: #6f6af7;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.links {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 30px;
+  font-family: "DM Sans", sans-serif;
+}
+.dropdown {
+  background-color: #6f6af7;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.input {
+    border: none;
+  width: 314px;
+  height: 57px;
+  top: 36px;
+  left: 1171px;
+  border-radius: 63px;
+  outline: none;
+  margin-left: 10px;
+}
+.input::placeholder{
+    color: #808080;
+    font-size: medium;
+    padding-left: 10px;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 36px;
+  left: 1140px;
+}
+.fa-bars {
+  position: absolute;
+  width: 67px;
+  height: 46.61px;
+  top: 38.84px;
+  left: 1260px;
+  color: #ffffff;
+}
+.image {
+  position: relative;
+  width: 456px;
+  /* top: 289px;
+  left: 129px; */
+  height: 507px;
+  margin-left: 40px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.intro {
+  display: flex;
+}
+.text {
+    background-color: #E5D8FF;
+    position: relative;
+  width: 600px;
+  height: 507px;
+  /* top: 289px;
+  left: 150px; */
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 25px;
+  border: 6px;
+}
+
+.text p{
+    margin: 20px;
+}
+.WhatsApp{
+    height: 50px;
+    width: 50px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 40px;
+    gap: 10px;
+}
+.card1{
+    background-color: #929DFF;
+    width: 180px;
+    height: 75px;
+    border-radius: 11px;
+    padding: 10px;
+}
+.card2{
+    background-color: #734CF2;
+    width: 180px;
+    height: 75px;
+    border-radius: 11px;
+    padding: 10px;
+}
+.card3{
+    width: 180px;
+    height: 75px;
+    border-radius: 11px;
+    padding: 10px;
+    background-color: #D288FF;
+}
+.card4{
+    background-color: #000000;
+    width: 180px;
+    height: 75px;
+    border-radius: 11px;
+    padding: 10px;
+}
+.cards{
+    margin-left: 40px;
+    margin-top: 25px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.info{
+    /* background-color: #BCE0F6; */
+    width: 120px;
+    height: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 22px;
+    font-size: 15px;
+}
+.main-card{
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: #6f6af7;
+    width: 1200px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.bookmarks{
+    width: 120px;
+    height: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 22px;
+    font-size: 15px;
+}
+.settings{
+    width: 120px;
+    height: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 22px;
+    font-size: 15px;
+}
+.tags{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 40px;
+}
+.info:hover{
+    background-color: #BCE0F6;
+}
+.bookmarks:hover{
+    background-color: #BCE0F6;
+}
+.settings:hover{
+    background-color: #BCE0F6;
+}
+.screen{
+    margin-left: 50px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+}
+.title{
+    font-weight: bold;
+    line-height: 25px;
+}
+.next{
+    position: relative;
+    top: 70px;
+    left: 330px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
